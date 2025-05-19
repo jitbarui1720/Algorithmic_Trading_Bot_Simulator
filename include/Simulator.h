@@ -3,6 +3,7 @@
 #include "RSIStrategy.h"
 #include "Portfolio.h"
 #include "Execution_engine.h"
+#include "RiskManager.h"
 
 
 class Simulator {

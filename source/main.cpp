@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
         simulator.run(market, strategy, portfolio, executor);
 
         std::cout << "==============================\n";
-        std::cout << "✅ Backtest complete.\n";
+        std::cout << " Backtest complete.\n";
 
     } catch (const std::exception& e) {
         std::cerr << " Simulation error: " << e.what() << "\n";
